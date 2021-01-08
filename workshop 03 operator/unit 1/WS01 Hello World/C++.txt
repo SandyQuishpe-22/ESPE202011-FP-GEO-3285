@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    //printf() displays information
+	printf("Hello World from \t\" Sandy Quihspe! \" =);
+	printf("\n Tha grade is %d \n", grade);
+	retunrn 0;
+}

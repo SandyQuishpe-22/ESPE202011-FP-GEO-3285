@@ -1,0 +1,12 @@
+// Sandy Quishpe Hello Worl
+
+/*
+some lines of comments
+cna be written in this way
+thanks 
+*/
+class HelloWorld{
+      public static void main(Strings[] args){
+		  System.out.println("Hello Wordl from Sandy Quishpe");
+	  }
+} 
