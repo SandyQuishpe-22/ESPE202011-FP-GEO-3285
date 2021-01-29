@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws08.examq11solution;
+package ws8.debugging;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Usuario
  */
-public class WS08EXAMQ11SOLUTION {
+public class WS8Debugging {
 
     /**
      * @param args the command line arguments
@@ -47,8 +47,5 @@ public class WS08EXAMQ11SOLUTION {
 
     }
 
-}
-        
-    
-    
+}        
 
