@@ -19,8 +19,8 @@ public class HW10Fuctions {
     public static void main(String[] args) {
         // DONE
         Scanner input = new Scanner(System.in);
-        int divd;
-        int divr;
+        int divident;
+        int divisor;
         float quotient = 0;
         int x = 0;
         int y = 0;
@@ -32,11 +32,11 @@ public class HW10Fuctions {
         System.out.println("+++==HELLO USER==+++");
         System.out.println("<------MY NAME´S  SANDY----->");
         System.out.println("<=====Enter numb for divd=====>");
-        divd = input.nextInt();
+        divident = input.nextInt();
         
         System.out.println("<=====Enter numb for divr=====>");
-        divr = input.nextInt();
-        quotient = divideTwoNumbers(divd, divr);
+        divisor = input.nextInt();
+        quotient = divideTwoNumbers(divident, divisor);
 
         System.out.println("Quotient is -> " + quotient);
 
