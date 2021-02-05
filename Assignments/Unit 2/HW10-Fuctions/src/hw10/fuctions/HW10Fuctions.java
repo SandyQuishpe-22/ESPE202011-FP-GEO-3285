@@ -18,7 +18,6 @@ public class HW10Fuctions {
      */
     public static void main(String[] args) {
         // DONE
-        
         Scanner input = new Scanner(System.in);
         int divd;
         int divr;
@@ -30,14 +29,13 @@ public class HW10Fuctions {
         int top = 12;
         
         
-        System.out.println("**==HELLO USER==**");
+        System.out.println("+++==HELLO USER==+++");
+        System.out.println("<------MY NAME´S  SANDY----->");
         System.out.println("<=====Enter numb for divd=====>");
         divd = input.nextInt();
         
         System.out.println("<=====Enter numb for divr=====>");
         divr = input.nextInt();
-                
-        
         quotient = divideTwoNumbers(divd, divr);
 
         System.out.println("Quotient is -> " + quotient);
@@ -59,7 +57,7 @@ public class HW10Fuctions {
             System.out.println(multiplicand  + " x " + multiplier + " = " + product);
             
         }
-            System.out.println("<====BYE USER====>");
+            System.out.println("<-----BYE USER----->");
         
 }
 
@@ -98,4 +96,4 @@ public class HW10Fuctions {
         return product;
     }
 
-}
+}        
