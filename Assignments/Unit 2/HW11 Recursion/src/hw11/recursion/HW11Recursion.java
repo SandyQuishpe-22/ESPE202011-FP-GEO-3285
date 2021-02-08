@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class HW11Recursion {
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class HW11ExampleRecursion {
 
@@ -32,50 +32,50 @@ Scanner input = new Scanner(System.in);
             switch (option) {
 
                 case 1:
-                    setFormKilometersToMeters(input);
+                    printFormKilometersToMeters(input);
                     break;
                 case 2:
-                    setForMetersToCentimeters(input);
+                    printForMetersToCentimeters(input);
                     break;
                 case 3:
-                    setForMeterstoMillimeters(input);
+                    printForMeterstoMillimeters(input);
                     break;
                 case 4:
-                    setForMetersToNanometers(input);
+                    printForMetersToNanometers(input);
                     break;
 
                 case 5:
-                    setForMetersToFeet(input);
+                    printForMetersToFeet(input);
                     break;
 
                 case 6:
-                    setForMetersToInches(input);
+                    printForMetersToInches(input);
                     break;
 
                 case 7:
-                    setForCentimetersToMicrometers(input);
+                    printForCentimetersToMicrometers(input);
                     break;
                 case 8:
-                    setForCentimetersToInches(input);
+                    printForCentimetersToInches(input);
                     break;
 
                 case 9:
-                    setForMilllimetersToNanometers(input);
+                    printForMilllimetersToNanometers(input);
                     break;
 
                 case 10:
-                    setForKilometersToCentimeters(input);
+                    printForKilometersToCentimeters(input);
                     break;
                 case 11:
-                    setForMilesToMeters(input);
+                    printForMilesToMeters(input);
                     break;
 
                 case 12:
-                    setForMetersToYards(input);
+                    printForMetersToYards(input);
                     break;
 
                 case 13:
-                    setForGigametersToMeters(input);
+                    printForGigametersToMeters(input);
                     break;
                 case 14:
                     System.out.println("*====GOOD BYE USER ====*");
@@ -91,21 +91,21 @@ Scanner input = new Scanner(System.in);
 
     }
 
-    private static void setForGigametersToMeters(Scanner input) {
+    private static void printForGigametersToMeters(Scanner input) {
         System.out.println("enter enter the data --> ");
         double gigameters = input.nextDouble();
         double meters = gigameters * 1000000000;
         System.out.println(gigameters + " gigameters is equal to " + meters + " meters\n ");
     }
 
-    private static void setForMetersToYards(Scanner input) {
+    private static void printForMetersToYards(Scanner input) {
         System.out.println("enter enter the data --> ");
         double meters = input.nextDouble();
         double yard = meters * 1.09361;
         System.out.println(meters + " meters is equal to " + yard + " yard\n ");
     }
 
-    private static void setForMilesToMeters(Scanner input) {
+    private static void printForMilesToMeters(Scanner input) {
         System.out.println("enter enter the data --> ");
         double miles = input.nextDouble();
         double meters = miles * 1609.344;
@@ -146,7 +146,7 @@ Scanner input = new Scanner(System.in);
         int yard;
     }
 
-    private static void setForKilometersToCentimeters(Scanner input) {
+    private static void printForKilometersToCentimeters(Scanner input) {
         int kilometers;
         int centimeters;
         System.out.println("**Enter the number** ");
@@ -155,7 +155,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(kilometers + " kilometers is equal to " + centimeters + " centimeters\n ");
     }
 
-    private static void setForMilllimetersToNanometers(Scanner input) {
+    private static void printForMilllimetersToNanometers(Scanner input) {
         int millimeters;
         int nanometers;
         System.out.println("**Enter the number** ");
@@ -164,7 +164,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(millimeters + " millimeters is equal to " + nanometers + " nanometers\n ");
     }
 
-    private static void setForCentimetersToInches(Scanner input) {
+    private static void printForCentimetersToInches(Scanner input) {
         int centimeters;
         int inches;
         System.out.println("**Enter the number** ");
@@ -173,7 +173,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(centimeters + " centimeters is equal to " + inches + " inches\n ");
     }
 
-    private static void setForCentimetersToMicrometers(Scanner input) {
+    private static void printForCentimetersToMicrometers(Scanner input) {
         int centimeters;
         int micrometers;
         System.out.println("**Enter the number** ");
@@ -182,7 +182,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(centimeters + " centimeters is equal to " + micrometers + " micrometers\n ");
     }
 
-    private static void setForMetersToInches(Scanner input) {
+    private static void printForMetersToInches(Scanner input) {
         int meters;
         int inches;
         System.out.println("**Enter the number** ");
@@ -191,7 +191,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(meters + " meters is equal to " + inches + " inches\n ");
     }
 
-    private static void setForMetersToFeet(Scanner input) {
+    private static void printForMetersToFeet(Scanner input) {
         int meters;
         int feet;
         System.out.println("**Enter the number** ");
@@ -200,7 +200,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(meters + " meters is equal to " + feet + " feet\n ");
     }
 
-    private static void setForMetersToNanometers(Scanner input) {
+    private static void printForMetersToNanometers(Scanner input) {
         int meters;
         int nanometers;
         System.out.println("**Enter the number** ");
@@ -209,7 +209,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(meters + " meters is equal to " + nanometers + " nanometers\n ");
     }
 
-    private static void setForMeterstoMillimeters(Scanner input) {
+    private static void printForMeterstoMillimeters(Scanner input) {
         int meters;
         int millimeters;
         System.out.println("**Enter the number** ");
@@ -218,7 +218,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(meters + " meters is equal to " + millimeters + " millimeters\n ");
     }
 
-    private static void setForMetersToCentimeters(Scanner input) {
+    private static void printForMetersToCentimeters(Scanner input) {
         int meters;
         int centimeters;
         System.out.println("**Enter the number** ");
@@ -227,7 +227,7 @@ Scanner input = new Scanner(System.in);
         System.out.println(meters + " meters is equal to " + centimeters + " centimeters\n ");
     }
 
-    private static void setFormKilometersToMeters(Scanner input) {
+    private static void printFormKilometersToMeters(Scanner input) {
         int kilometers;
         int meters;
         System.out.println("**Enter the number**");
