@@ -23,12 +23,12 @@ public class HW11Recursion {
         
         System.out.println("***WELCOME ***");
         System.out.println("***MY NAME IS SANDY**");
-       int [][] m=    {
+        int [][] m=    {
                       {1,4,8},
                       {4,8,88},
                       {4,82,73},
                       {81,22,33},
-                    };
+                           };
        traverseRecursiveMatrix(m, 0,0);
        System.out.println("***BYE FRIEND***");
     }
