@@ -7,7 +7,7 @@ package ws12libraries;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class WS12Libraries {
 
