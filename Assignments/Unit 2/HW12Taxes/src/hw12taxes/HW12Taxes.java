@@ -40,24 +40,24 @@ public class HW12Taxes {
        System.out.println("VALUE: " + value);
        System.out.println("IVA: " + iva);
        System.out.println("Total: " + total);
-       
-      //CURRENCY EXIT TAX
-       
-       float amount = 0.0F;
-       final float quantity = 0.0F;
-       float remaining;
-       final float tax = 0.05F;
-       float Amount;
-       
-       Amount = outflowtax (amount, quantity);
-       
-       System.out.println("****The Value is****");
-       System.out.println("****Enter is amount ->");
-       amount = input.nextInt();
-       
-       Amount = (amount - quantity) * 0.05F;
-       
-       System.out.println(" ****Amount --> " + Amount);
+       //CURRENCY EXIT ISD
+        float amount = 0.0F;
+        final float quantityISD = 0.05F;
+        float Amount;
+        float total2;
+        float amountOfISD = 0.0F;
+
+        Amount = outflowtax(amount, quantityISD);
+
+        System.out.println("*HI TO CALCULATOR ISD **");
+        System.out.println("*Enter amount--->");
+        System.out.println("* Enter the amount of ISD--->");
+        amount = input.nextInt();
+        Amount = (amount - amountOfISD) * quantityISD;
+
+        System.out.println("Amount: " + amount);
+        System.out.println("QuantityTax: " + quantityISD);
+        System.out.println("Total: " + total);
        
        //Income tax calculation
        //basic fraction $0.10   Excess up to $11212
@@ -69,8 +69,8 @@ public class HW12Taxes {
        
        totalEnergyValue = Incometax (valuetax, basicfraction, surplusfraction,tax1);
        
-       System.out.println("****The Income tax is****");
-       System.out.println("****Enter ValueTax -> ");
+       System.out.println("****HI TO CALCUTOR INCOME TAX IS****");
+       System.out.println("****Enter ValueTax --> ");
        valuetax = input.nextInt();
        
        totalEnergyValue = ((valuetax - basicfraction)* surplusfraction)+ tax1 ;
@@ -87,7 +87,7 @@ public class HW12Taxes {
        totalWaterValue = Incometax2 (valuetax2, basicfraction2, surplusfraction2,tax2);
        
        System.out.println("****The Income tax is****");
-       System.out.println("****Enter valueTax2 -> ");
+       System.out.println("****Enter valueTax2 --> ");
        valuetax2 = input.nextInt();
        
        totalWaterValue = ((valuetax2 - basicfraction2)* surplusfraction2)+ tax2 ;
@@ -104,7 +104,7 @@ public class HW12Taxes {
        totalValue = Incometax3 (valuetax3, basicfraction3, surplusfraction3,tax3);
        
        System.out.println("****The Income tax is****");
-       System.out.println("****Enter valuet3 -> ");
+       System.out.println("****Enter valuet3 --> ");
        valuetax3 = input.nextInt();
        
        totalValue = ((valuetax3 - basicfraction3)* surplusfraction3)+ tax3 ;
