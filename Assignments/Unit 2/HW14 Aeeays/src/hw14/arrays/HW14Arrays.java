@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class HW14Arrays {
 
@@ -23,45 +23,46 @@ public class HW14Arrays {
         int option;
 
         do { 
-        System.out.println(" HELLO WELCOME TO MENU");      
-        System.out.println("*My name´s Fernado*");
-        System.out.println("** 1.acuaticAnimals **");
-        System.out.println("*2. flying animals*");
-        System.out.println("** 3. Exit ** ");        
-        System.out.println("**Enter menu option -->");
+            System.out.println(" ====Hello====");
+            System.out.println(" ====My mane is Sandy====");
+            System.out.println(" _____________ ");
+            System.out.println(" ======== OPTION MENU ========= ");
+            System.out.println("1. ====domesticAnimals====");
+            System.out.println("2. ====herbivorousAnimals====");
+            System.out.println(" ======== 2. Exit====");
+            System.out.println(" _____________ ");
+            System.out.println(" ====Enter an option====");
             option = input.nextInt(); 
             switch (option) {
 
                 case 1 :{            
-        int[] aquaticAnimals;
-        String[] animals = {"Squid", "Seal", "Crab", "Surubí", "Dolphin","Sea turtle",
-            "Sperm whale", "Butterfly fish", "Blue whale","Parrotfish"};
+        int[] domesticAnimals;
+        String[] animals = {"dog", "cat", "sheep", "pork", "cow","chicken","guinea pig", "donkey", "goat","duck"};
 
         
         int n;
-        System.out.println("Enter the name of the animals aquatic");
+        System.out.println("==Enter the name of the animals domestic -> ");
         n = input.nextInt();
 
-        aquaticAnimals = new int[n];
-//        animalsaquitc[0] = 4;
-//        animalsaquitc[1] = 5;
-//        animalsaquitc[2] = 6;
-//        animalsaquitc[3] = 7;
-//        animalsaquitc[4] = 8;
-//        animalsaquitc[5] = 6;
-//        animalsaquitc[6] = 2;
+        domesticAnimals = new int[n];
+//        animalsdomestic[0] = 4;
+//        animalsdomestic[1] = 5;
+//        animalsdomestic[2] = 6;
+//        animalsdomestic[3] = 7;
+//        animalsdomestic[4] = 8;
+//        animalsdomestic[5] = 1;
 
         for (int i = 0; i < n; i++) {
             System.out.print("Enter the name of the animals" + (i + 1) + " -> ");
-            aquaticAnimals[i] = input.nextInt();
+            domesticAnimals[i] = input.nextInt();
         }
 
-        for (int animal : aquaticAnimals) {
-            System.out.println("animal of aquatic arre " + animal);
+        for (int animal : domesticAnimals) {
+            System.out.println("animal of domestic  are " + animal);
         }
 
         for (int i = 0; i < n; i++) {
-            System.out.println("number of the animal" + (i + 1) + " -> " + aquaticAnimals[i]);
+            System.out.println("number of the animal" + (i + 1) + " -> " + domesticAnimals[i]);
          }
 
         for (String animal : animals) {
@@ -72,35 +73,33 @@ public class HW14Arrays {
                 
                 case 2 : {                
 
-        int[] flyingAnimals;
-        String[] animals = {"The cockatoo", "The Eagle", "The toucan", "The flamenco", "The moth"};
+        int[] herbivorousAnimals;
+        String[] animals = {"vulture", "alligator", "coyote", "seal", "Tseagull","lizard"};
 
         int n;
-        System.out.println("Enter the name of the animals flying");
+        System.out.println("Enter the name of the animals herbivorous -> ");
         n = input.nextInt();
 
-        flyingAnimals = new int[n];
+        herbivorousAnimals = new int[n];
         
-//        animalsflying[0] = 4;
-//        animalsflying[1] = 5;
-//        animalsflying[2] = 6;
-//        animalsflying[3] = 7;
-//        animalsflying[4] = 8;
-//        animalsflying[5] = 2;
-//        animalsflying[6] = 1;
-
+//        animalsherbivorous0] = 2;
+//        animalsherbivorous[1] = 5;
+//        animalsherbivorous[2]= 8;
+//        animalsherbivorous[3] = 4;
+//        animalsherbivorous[4] = 9;
+//        animalsherbivorous[5] = 1;
 
         for (int i = 0; i < n; i++) {
             System.out.print("Enter the name of the animals" + (i + 1) + " -> ");
-            flyingAnimals[i] = input.nextInt();
+            herbivorousAnimals[i] = input.nextInt();
         }
 
-        for (int animal : flyingAnimals) {
-            System.out.println("animal of flying" + animal);
+        for (int animal : herbivorousAnimals) {
+            System.out.println("animal of herbivorous are" + animal);
         }
 
         for (int i = 0; i < n; i++) {
-            System.out.println("number of the animal" + (i + 1) + " -> " + flyingAnimals[i]);
+            System.out.println("number of the animal" + (i + 1) + " -> " + herbivorousAnimals[i]);
             }
 
         for (String animal : animals) {
