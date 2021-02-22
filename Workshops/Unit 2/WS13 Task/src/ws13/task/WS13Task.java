@@ -35,31 +35,16 @@ public class WS13Task {
    
       
         case 1:
-         System.out.println("===Enter the perimeter===");
-         int perimetro = input.nextInt();
-         System.out.println("===Enter the Apothem===");
-         int apothem= input.nextInt();
-         System.out.println("===THE PENTAGON AREA IS=== :"+pentagonarea(perimetro,apothem));
+            computerAreaOfPentagon(input);
         break;
         case 2:
-         System.out.println("===Enter base===");
-         int base_r =input.nextInt();
-         System.out.println("===Enter Height===");
-         int height_r =input.nextInt();
-         System.out.println("===THE ROMBOID AREA IS===:"+rhomboidarea(base_r,height_r));
+            computerAreaofRomboid(input);
         break;
         case 3:
-         System.out.println("===ENTER MAJOR BASE===");
-         int base_ma=input.nextInt();
-         System.out.println("===ENTER THE MINOR BASE===");
-         int base_me=input.nextInt();
-         System.out.println("===ENTER HEIGHT===");
-         int height_t=input.nextInt();
-         System.out.println("===THE AREA OF THE TRAPEZE IS===:"+trapeziumarea(base_ma,base_me,height_t));
+            computerAreaofTrapeze(input);
         break;
         case 4:
-        System.out.println("=== BYE USER ===");
-        System.exit(0);
+            computerExit();
         break;
         default:
 }
@@ -67,13 +52,44 @@ public class WS13Task {
     }while (opcion != 4);
 }
 
-public static int pentagonarea(int erimeter, int apothem){
-     return (erimeter*apothem) / 2;
+    private static void computerExit() {
+        System.out.println("=== BYE USER ===");
+        System.exit(0);
     }
-  public static int rhomboidarea(int base,int height){
+
+    private static void computerAreaofTrapeze(Scanner input) {
+        System.out.println("===ENTER MAJOR BASE===");
+        int base_ma=input.nextInt();
+        System.out.println("===ENTER THE MINOR BASE===");
+        int base_me=input.nextInt();
+        System.out.println("===ENTER HEIGHT===");
+        int height_t=input.nextInt();
+        System.out.println("===THE AREA OF THE TRAPEZE IS===:"+computetrapeziumarea(base_ma,base_me,height_t));
+    }
+
+    private static void computerAreaofRomboid(Scanner input) {
+        System.out.println("===Enter base===");
+        int base_r =input.nextInt();
+        System.out.println("===Enter Height===");
+        int height_r =input.nextInt();
+        System.out.println("===THE ROMBOID AREA IS===:"+computerhomboidarea(base_r,height_r));
+    }
+
+    private static void computerAreaOfPentagon(Scanner input) {
+        System.out.println("===Enter the perimeter===");
+        int perimetro = input.nextInt();
+        System.out.println("===Enter the Apothem===");
+        int apothem= input.nextInt();
+        System.out.println("===THE PENTAGON AREA IS=== :"+computepentagonarea(perimetro,apothem));
+    }
+
+public static int computepentagonarea(int perimeter, int apothem){
+     return (perimeter*apothem) / 2;
+    }
+  public static int computerhomboidarea(int base,int height){
      return base*height ;
     }
-  public static int trapeziumarea (int Base , int base , int height){
+  public static int computetrapeziumarea (int Base , int base , int height){
   
    return ((Base+base)/2)*height;
   }
