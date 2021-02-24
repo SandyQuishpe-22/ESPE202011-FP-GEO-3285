@@ -24,7 +24,7 @@ public class HW14Arrays {
 
         do { 
             System.out.println(" ====Hello====");
-            System.out.println(" ====My mane is Sandy====");
+            System.out.println(" ====My name is Sandy====");
             System.out.println(" _____________ ");
             System.out.println(" ======== OPTION MENU ========= ");
             System.out.println("1. ====domesticAnimals====");
