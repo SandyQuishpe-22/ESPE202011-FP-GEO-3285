@@ -30,10 +30,10 @@ public class HW16MatrixFuction {
         System.out.println(" ====My name is Sandy====");
         System.out.println(" ====Welcome to the calculator to subtract matrixs====");
         System.out.println("Enter the matrix dimesions");
-        System.out.println("====Enter the columns of the matrices====>");
+        System.out.println("---Enter the columns of the matrices--->");
         rows = input.nextInt();
 
-        System.out.println("====Enter the rows of the arrays====>");
+        System.out.println("---Enter the rows of the arrays--->");
         columns = input.nextInt();
 
         matrixA = new float[columns][rows];
@@ -78,6 +78,8 @@ public class HW16MatrixFuction {
         prettyPrintMatrix(columns, rows, TransposingTheMatrixOfA);
         
         System.out.println("");
+        
+        
     }
     public static float[][] readMatrixElements(int columns, int rows, String matrixName, Scanner input) {
         float[][] matrix;
