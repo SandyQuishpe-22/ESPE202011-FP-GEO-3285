@@ -23,6 +23,7 @@ public class WS10Fuctions {
         int x = 0;
         int y = 0;
 
+        System.out.println("AUTHOR: SANDY QUISHPE");
         //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
 
