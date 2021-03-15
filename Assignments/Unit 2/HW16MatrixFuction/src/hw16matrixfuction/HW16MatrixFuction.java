@@ -17,7 +17,7 @@ public class HW16MatrixFuction {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // DONE
         int rows;
         int columns;
         float[][] matrixA;
