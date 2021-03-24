@@ -7,7 +7,7 @@ package ws24.sorting;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class SelectionSort {
 

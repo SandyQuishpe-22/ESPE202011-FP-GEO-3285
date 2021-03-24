@@ -7,7 +7,7 @@ package hw18.searching;
 
 /**
  *
- * @author Usuario
+ * @author Quishpe Sandy
  */
 public class LinearSearch {
     
