@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw.pkg19.cadena;
+package hw.pkg19.SearchingForm;
 
 import javax.swing.JOptionPane;
 
@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Quishpe Sandy74
  */
-public class HW19Cadena {
+public class HW19SearchingForm {
 
     /**
      * @param args the command line arguments
