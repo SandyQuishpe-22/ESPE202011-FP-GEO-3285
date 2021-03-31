@@ -1,0 +1,18 @@
+
+Black, 2, small, 1888, 2
+Black, 2, Small, 1999, 1212
+Black, 2, small, 120m, 1000
+White, 2, small, 120m, 1000
+Black, 2, small, 120m, 1400
+Black, 2, small, 12m, 1000
+White, 2, small, 150m, 1000
+White, 2, small, 150m, 1000
+Black, 2, small, 12m, 2
+Black; 2; pequeño; 150m; 15000
+White; 5; grande; 160m; 16000
+Black; 2; small; 12m; 188
+Black ; 2 ; small ; 2 ; 2
+Black ; 2 ; small ; 2m ; 1000
+Black , 2 , small , 290m , 18000
+Black , 2 , small , 290m , 180
+Black , 2 , small , 150m , 18000

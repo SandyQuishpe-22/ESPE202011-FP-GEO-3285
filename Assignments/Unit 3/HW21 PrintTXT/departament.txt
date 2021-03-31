@@ -1,0 +1,12 @@
+
+Black, 2, small, 150m, 1000
+Black, 2, small, 140m, 100
+Black, 2, small, 140m, 1000
+White, 2, small, 150m, 1000
+White, 1, small, 120m, 1600
+Black, 3, small, 150m, 13900
+White, 2, small, 154m, 13900
+White, 2, small, 154m, 13900
+White, 2, small, 154m, 2
+White, 3, small, 154m, 3
+Black, 2, large, 120m, 1500
