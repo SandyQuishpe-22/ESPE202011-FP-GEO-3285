@@ -5,6 +5,7 @@
  */
 package ec.edu.espe.Gps.view;
 
+
 import ec.edu.espe.Gps.Controler.GpsController;
 import ec.edu.espe.Gps.model.Gps;
 import javax.swing.JOptionPane;
@@ -159,30 +160,34 @@ public class FrmGps extends javax.swing.JFrame {
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         Gps gps;
-        String model;
-        String version;
-        int price;
+        String Model;
+        int Version;
+        int Age;
         String touchscreen;
-        String Age;
+        int Price;
+        
+        GpsController gpscontroller = new GpsController();
 
-        GpsController gpsController = new GpsController();
-
-        model = cmbModel.getSelectedItem().toString();
-        version = txtVersion.getText();
+        Model = cmbModel.getSelectedItem().toString();
+        Version = Integer.parseInt(txtVersion.getText());
+        Age =  Integer.parseInt(txtAge.getText());
         touchscreen = txtTouchScreen.getText();
-        Age = txtAge.getText();
-        price = Integer.parseInt(xtxPrice.getText());
+        Price = Integer.parseInt(xtxPrice.getText());
+        
+       gps= new Gps(Model, Version, Age, touchscreen,Price);
 
-        gps = new Gps(model, version, price, touchscreen, price);
+        gpscontroller.save(gps);
 
-        gpsController.save(gps);
-
-        JOptionPane.showMessageDialog(rootPane, gps.getModel());
+        JOptionPane.showMessageDialog(rootPane,gps.getModel());
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void btnShowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnShowActionPerformed
-     GpsController gpsController = new GpsController();
+        
+        GpsController gpsController = new GpsController();
         txtAreaGps.setText(gpsController.read()[0]);
+        
+
+    
     }//GEN-LAST:event_btnShowActionPerformed
 
     /**

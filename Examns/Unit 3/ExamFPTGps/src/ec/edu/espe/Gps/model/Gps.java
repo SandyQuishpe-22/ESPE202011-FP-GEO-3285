@@ -10,66 +10,63 @@ package ec.edu.espe.Gps.model;
  * @author Usuario
  */
 public class Gps {
-    
-private String model;
-private String version;
-private int price;
-private String touchscreen;
-private String Age;
 
-    public Gps(String model, String version, int price, String touchscreen, String Age) {
-        this.model = model;
-        this.version = version;
-        this.price = price;
-        this.touchscreen = touchscreen;
+    private String Model;
+    private int Version;
+    private int Age;
+    private String touchscreen;
+    private int Price;
+
+    public Gps(String Model, int Version, int Age, String touchscreen, int Price) {
+        this.Model = Model;
+        this.Version = Version;
         this.Age = Age;
+        this.touchscreen = touchscreen;
+        this.Price = Price;
+   
+        
     }
 
-    public Gps(String model, String version, int price, String touchscreen, int price0) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-  
     /**
-     * @return the model
+     * @return the Model
      */
     public String getModel() {
-        return model;
+        return Model;
     }
 
     /**
-     * @param model the model to set
+     * @param Model the Model to set
      */
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel(String Model) {
+        this.Model = Model;
     }
 
     /**
-     * @return the version
+     * @return the Version
      */
-    public String getVersion() {
-        return version;
+    public int getVersion() {
+        return Version;
     }
 
     /**
-     * @param version the version to set
+     * @param Version the Version to set
      */
-    public void setVersion(String version) {
-        this.version = version;
+    public void setVersion(int Version) {
+        this.Version = Version;
     }
 
     /**
-     * @return the price
+     * @return the Age
      */
-    public int getPrice() {
-        return price;
+    public int getAge() {
+        return Age;
     }
 
     /**
-     * @param price the price to set
+     * @param Age the Age to set
      */
-    public void setPrice(int price) {
-        this.price = price;
+    public void setAge(int Age) {
+        this.Age = Age;
     }
 
     /**
@@ -87,20 +84,17 @@ private String Age;
     }
 
     /**
-     * @return the Age
+     * @return the Price
      */
-    public String getAge() {
-        return Age;
+    public int getPrice() {
+        return Price;
     }
 
     /**
-     * @param Age the Age to set
+     * @param Price the Price to set
      */
-    public void setAge(String Age) {
-        this.Age = Age;
+    public void setPrice(int Price) {
+        this.Price = Price;
     }
-
-
-
-
+    
 }

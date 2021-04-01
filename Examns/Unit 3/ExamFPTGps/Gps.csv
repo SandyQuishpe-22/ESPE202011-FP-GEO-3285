@@ -1,2 +1,7 @@
-Map 78;5;2000;189;yes
-Oregon;4;1980;150;no
+
+2001; Map78; 5; yes; 190
+2000; Oregon; 4; no; 150
+1980; Dakota; 3; yes; 120
+1980; Map62; 3; no; 150
+2010; Oregon; 6; yes; 250
+1960; Map62; 2; no; 80
